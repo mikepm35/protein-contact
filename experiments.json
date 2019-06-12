@@ -1,0 +1,188 @@
+[
+    {
+        "id": 1010,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1020,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 64, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1030,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 128, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    
+    {
+        "id": 1040,
+        "batch_size": 2,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1050,
+        "batch_size": 2,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 64, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1060,
+        "batch_size": 2,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 128, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    
+    {
+        "id": 1070,
+        "batch_size": 2,
+        "radius": 1,
+        "learning_rate": 0.0001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 64, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1080,
+        "batch_size": 2,
+        "radius": 1,
+        "learning_rate": 0.0005,
+        "layers": [
+            {"layer_type": "LSTM", "units": 64, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1090,
+        "batch_size": 2,
+        "radius": 1,
+        "learning_rate": 0.005,
+        "layers": [
+            {"layer_type": "LSTM", "units": 64, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1100,
+        "batch_size": 2,
+        "radius": 1,
+        "learning_rate": 0.01,
+        "layers": [
+            {"layer_type": "LSTM", "units": 64, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1110,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1120,
+        "batch_size": 1,
+        "radius": 2,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1130,
+        "batch_size": 1,
+        "radius": 3,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1140,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 8, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "LSTM", "units": 8, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "LSTM", "units": 8, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1150,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1160,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 8, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "Dropout", "units": 0.1},
+            {"layer_type": "LSTM", "units": 8, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "Dropout", "units": 0.1},
+            {"layer_type": "LSTM", "units": 8, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dropout", "units": 0.1},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1170,
+        "batch_size": 1,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "Dropout", "units": 0.1},
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "Dropout", "units": 0.1},
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dropout", "units": 0.1},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    }    
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1010,
+        "batch_size": 500,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 16, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    },
+    {
+        "id": 1030,
+        "batch_size": 1000,
+        "radius": 1,
+        "learning_rate": 0.001,
+        "layers": [
+            {"layer_type": "LSTM", "units": 64, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "Dense", "units": 3, "activation": "softmax"}
+        ]
+    } 
+]

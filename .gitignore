@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# other custom ignores
+pdbstyle-*/
+*.fa
+ss.txt
+*.gz
+*.tgz
+*nbconver*
+.DS_Store
+
