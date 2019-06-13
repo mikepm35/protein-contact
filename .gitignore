@@ -111,4 +111,6 @@ ss.txt
 *.tgz
 *nbconver*
 .DS_Store
+results.csv
+*notebook.py
 
