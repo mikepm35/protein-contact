@@ -305,8 +305,8 @@
         "radius": 3,
         "learning_rate": 0.0005,
         "layers": [
-            {"layer_type": "LSTM", "units": 128, "activation": "tanh", "return_sequences": false},
-            {"layer_type": "LSTM", "units": 128, "activation": "tanh", "return_sequences": false},
+            {"layer_type": "LSTM", "units": 128, "activation": "tanh", "return_sequences": true},
+            {"layer_type": "LSTM", "units": 128, "activation": "tanh", "return_sequences": true},
             {"layer_type": "LSTM", "units": 128, "activation": "tanh", "return_sequences": false},
             {"layer_type": "Dense", "units": 3, "activation": "softmax"}
         ]
@@ -322,7 +322,7 @@
         ]
     }, 
     {
-        "id": 1230,
+        "id": 1300,
         "batch_size": 3,
         "radius": 3,
         "learning_rate": 0.0005,
@@ -332,7 +332,7 @@
         ]
     },  
     {
-        "id": 1240,
+        "id": 1310,
         "batch_size": 3,
         "radius": 3,
         "learning_rate": 0.0001,
@@ -342,7 +342,7 @@
         ]
     },
     {
-      "id": 1250,
+      "id": 1320,
       "batch_size": 1,
       "radius": 0,
       "learning_rate": 0.0001,
@@ -352,7 +352,7 @@
       ]      
     },
     {
-      "id": 1260,
+      "id": 1330,
       "batch_size": 1,
       "radius": 0,
       "learning_rate": 0.0001,
@@ -362,7 +362,7 @@
       ]      
     },
     {
-      "id": 1270,
+      "id": 1340,
       "batch_size": 1,
       "radius": 0,
       "learning_rate": 0.0001,
@@ -375,7 +375,7 @@
       ]      
     },
     {
-        "id": 1280,
+        "id": 1350,
         "batch_size": 2,
         "radius": 1,
         "learning_rate": 0.0005,
@@ -385,7 +385,7 @@
         ]
     },
     {
-        "id": 1290,
+        "id": 1360,
         "batch_size": 2,
         "radius": 1,
         "learning_rate": 0.001,
@@ -393,5 +393,5 @@
             {"layer_type": "LSTM", "units": 32, "activation": "tanh", "return_sequences": false},
             {"layer_type": "Dense", "units": 3, "activation": "softmax"}
         ]
-    },
+    }
 ]
