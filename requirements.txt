@@ -40,7 +40,7 @@ mistune==0.8.4
 mmtf-python==1.1.2
 mock==3.0.5
 msgpack==0.6.1
-nbconvert==5.5.0
+nbconvert==6.3.0
 nbformat==4.4.0
 notebook==5.7.8
 numpy==1.16.3
